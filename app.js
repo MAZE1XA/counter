@@ -24,5 +24,6 @@ count++;
  if (count === 0) {
   value.style.color="#222";
  }
+  value .textContent= count;
  });
  });
